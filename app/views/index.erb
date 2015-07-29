@@ -1,0 +1,48 @@
+<h1>Deaf Aunty</h1>
+
+<p>Say something to Aunty</p>
+
+<form action="/cool_url" method="get">
+  <input type="text" name="user_input">
+  <input type="submit" value="Say It!">
+<br>
+<br>
+  <input type="checkbox" name="option1" value="Milk\\"> Milk<br>
+  <input type="checkbox" name="option2" value="Butter" checked> Butter<br>
+  <input type="checkbox" name="option3" value="Cheese"> Cheese<br>
+
+<br>
+<br>
+<textarea cols="40" rows="5" name="myname">
+Tell Josh that he's awesome!
+</textarea>
+
+</form>
+
+<br>
+<br>
+
+<p>__________________________________________________________</p>
+
+
+<form action="/cool_url" method="post">
+    <input type="text" name="user_input">
+    <br>
+    <br>
+    <input type="text" name="post[title]">
+    <br>
+    <br>
+    <input type="text" name="post[price]">
+    <br>
+    <br>
+    <textarea name="post[description]"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Say It!">
+</form>
+
+
+
+
+<p>URL parameters:</p>
+<%= params %>
